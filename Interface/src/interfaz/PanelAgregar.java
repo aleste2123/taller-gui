@@ -16,17 +16,17 @@ import javax.swing.border.TitledBorder;
 public class PanelAgregar extends JPanel {
 	
 	private JTextField Img;
-    private JTextField Nom;
-    private JTextField Raza;
-    private JTextField Edad;
-    private JTextField Puntos;
-    private JLabel etImagen;
-    private JLabel etNombre;
-    private JLabel etRaza;
-    private JLabel etPuntos;
-    private JLabel etEdad;
-    private JButton boton1;
-    private JButton boton2;
+    	private JTextField Nom;
+    	private JTextField Raza;
+   	private JTextField Edad;
+    	private JTextField Puntos;
+    	private JLabel etImagen;
+    	private JLabel etNombre;
+    	private JLabel etRaza;
+    	private JLabel etPuntos;
+    	private JLabel etEdad;
+    	private JButton boton1;
+    	private JButton boton2;
 	
 	public PanelAgregar() {
 		setLayout( new GridBagLayout( ) );
