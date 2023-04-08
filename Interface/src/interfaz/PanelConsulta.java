@@ -21,9 +21,9 @@ public class PanelConsulta extends JPanel {
 		boton2 = new JButton( "Menor Puntaje" );
 		boton3 = new JButton( "Más Viejo" );
  
-        add( boton1 );
-        add( boton2 );
-        add( boton3 );
+        	add( boton1 );
+        	add( boton2 );
+        	add( boton3 );
 		
 	}
 	
