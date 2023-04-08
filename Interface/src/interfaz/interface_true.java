@@ -40,73 +40,73 @@ public class interface_true extends JFrame{
 		
 		
 
-        JPanel arriba = new JPanel( );
-        JPanel centro = new JPanel( );
+        	JPanel arriba = new JPanel( );
+        	JPanel centro = new JPanel( );
         
         
-        arriba.setLayout( new GridBagLayout( ) );
+        	arriba.setLayout( new GridBagLayout( ) );
 
         
-        gbc.gridx = 0;
-        gbc.gridy = 0;
-        gbc.fill = GridBagConstraints.BOTH;
-        gbc.ipadx = 170;
-        arriba.add( PanelPerrosExposicion, gbc );
+        	gbc.gridx = 0;
+        	gbc.gridy = 0;
+        	gbc.fill = GridBagConstraints.BOTH;
+        	gbc.ipadx = 170;
+        	arriba.add( PanelPerrosExposicion, gbc );
 
         
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 1;
-        gbc.gridy = 0;
-        gbc.ipadx = 100;
-        gbc.ipady = 200;
-        arriba.add( PanelDatosPerro, gbc );
+        	gbc = new GridBagConstraints( );
+        	gbc.gridx = 1;
+        	gbc.gridy = 0;
+        	gbc.ipadx = 100;
+        	gbc.ipady = 200;
+        	arriba.add( PanelDatosPerro, gbc );
 
    
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 2;
-        gbc.gridy = 0;
-        gbc.ipadx = 10;
-        gbc.ipady = 120;
-        arriba.add( PanelBusqueda, gbc );
+        	gbc = new GridBagConstraints( );
+        	gbc.gridx = 2;
+        	gbc.gridy = 0;
+        	gbc.ipadx = 10;
+        	gbc.ipady = 120;
+        	arriba.add( PanelBusqueda, gbc );
 
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 0;
-        gbc.gridy = 0;
-        gbc.fill = GridBagConstraints.BOTH;
-        getContentPane( ).add( arriba, gbc );
-
-        
-        centro.setLayout( new GridBagLayout( ) );
+        	gbc = new GridBagConstraints( );
+        	gbc.gridx = 0;
+        	gbc.gridy = 0;
+        	gbc.fill = GridBagConstraints.BOTH;
+        	getContentPane( ).add( arriba, gbc );
 
         
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 0;
-        gbc.gridy = 0;
-        gbc.ipady = 35;
-        gbc.ipadx = 20;
-        centro.add( PanelAgregar, gbc );
+        	centro.setLayout( new GridBagLayout( ) );
 
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 1;
-        gbc.gridy = 0;
-        gbc.ipadx = 90;
-        gbc.ipady = 10;
-        centro.add( PanelConsulta, gbc );
+        
+        	gbc = new GridBagConstraints( );
+        	gbc.gridx = 0;
+        	gbc.gridy = 0;
+        	gbc.ipady = 35;
+        	gbc.ipadx = 20;
+        	centro.add( PanelAgregar, gbc );
 
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 0;
-        gbc.gridy = 1;
-        gbc.fill = GridBagConstraints.BOTH;
-        getContentPane( ).add( centro, gbc );
+		gbc = new GridBagConstraints( );
+		gbc.gridx = 1;
+		gbc.gridy = 0;
+		gbc.ipadx = 90;
+		gbc.ipady = 10;
+		centro.add( PanelConsulta, gbc );
+
+		gbc = new GridBagConstraints( );
+		gbc.gridx = 0;
+		gbc.gridy = 1;
+		gbc.fill = GridBagConstraints.BOTH;
+		getContentPane( ).add( centro, gbc );
 
         
         
         
-        gbc = new GridBagConstraints( );
-        gbc.gridx = 0;
-        gbc.gridy = 2;
-        gbc.fill = GridBagConstraints.BOTH;
-        getContentPane( ).add( PanelExtension, gbc );
+		gbc = new GridBagConstraints( );
+		gbc.gridx = 0;
+		gbc.gridy = 2;
+		gbc.fill = GridBagConstraints.BOTH;
+		getContentPane( ).add( PanelExtension, gbc );
 	
 		
 		setVisible(true);
